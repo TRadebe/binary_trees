@@ -10,9 +10,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	size_t depth = 0;
 	size_t nodes = 0;
+
 	if (tree == NULL)
 		return (0);
 	depth = binary_tree_height(tree);
 	nodes = binary_tree_size(tree);
-	return (nodes == (1 << (depth + 1)) - 1);
+	return (nodes = (1 << (depth + 1)) - 1);
 }
