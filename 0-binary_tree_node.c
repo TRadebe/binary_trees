@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_trees - Crates a binary tree node
+ * binary_trees *binary_tree_node - Crates a binary tree node
  * @parent:poiter to the parent node of the node to create
  * @value: The value to put the new node
  *
@@ -21,4 +21,4 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new_node->right = NULL;
 
 	return (new_node);
-}	
+}
